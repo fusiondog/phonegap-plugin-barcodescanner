@@ -221,7 +221,7 @@ public class BarcodeScanner extends CordovaPlugin {
                 JSONObject obj = new JSONObject();
                 try {
                     obj.put(TEXT, "");
-                    obj.put(EXTRA, "")
+                    obj.put(EXTRA, "");
                     obj.put(FORMAT, "");
                     obj.put(CANCELLED, true);
                 } catch (JSONException e) {
